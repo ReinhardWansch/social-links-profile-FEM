@@ -4,14 +4,16 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ## Overview
 
+I will use Bootstrap and customize it with SCSS.
+
 ## Screenshot
 
 ![](./screenshot.jpg)
 
 ## Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here]()
+- Live Site URL: [Add live site URL here]()
 
 ## My process
 
@@ -23,6 +25,6 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Github - 
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+
