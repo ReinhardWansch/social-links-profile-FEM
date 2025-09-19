@@ -5,12 +5,8 @@
 /*##########*/
 
 :root {
-    --color-yellow: #F4D04E;
-    --color-gray-950: #111111;
-    --color-gray-500: #6B6B6B;
-    --color-white: #FFFFFF;
-
-    --fs-subtitle: 0.9rem;
+    --color-body-bg: #202020;
+    --color-card-bg: #292929;
 }
 
 /*############*/
