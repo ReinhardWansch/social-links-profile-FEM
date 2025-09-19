@@ -1,0 +1,41 @@
+
+
+/*##########*/
+/*## VARS ##*/
+/*##########*/
+
+:root {
+    --color-yellow: #F4D04E;
+    --color-gray-950: #111111;
+    --color-gray-500: #6B6B6B;
+    --color-white: #FFFFFF;
+
+    --fs-subtitle: 0.9rem;
+}
+
+/*############*/
+/*## STYLES ##*/
+/*############*/
+
+
+
+/*##########*/
+/*## UTIL ##*/
+/*##########*/
+
+
+/*#################*/
+/*## ATTRIBUTION ##*/
+/*#################*/
+
+.attribution {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    font-size: 11px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
