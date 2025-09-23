@@ -1,5 +1,8 @@
 {
+  "type": "module",
   "dependencies": {
-    "bootstrap": "^5.3.8"
+    "bootstrap": "^5.3.8",
+    "esbuild": "^0.25.10",
+    "esbuild-sass-plugin": "^3.3.1"
   }
 }
