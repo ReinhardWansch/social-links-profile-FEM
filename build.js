@@ -6,4 +6,7 @@ esbuild.build({
     bundle: true,
     outfile: 'dist/css/style.css',
     plugins: [sassPlugin({quietDeps: true})]
-}).catch(() => process.exit(1));
+}).catch((e) => {
+    // console.error('Build failed:', e.message);
+    process.exit(1);
+});
