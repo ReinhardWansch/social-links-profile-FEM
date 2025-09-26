@@ -134,11 +134,11 @@
     33,
     37,
     41;
-  --bs-body-bg: #fff;
+  --bs-body-bg: rgb(20, 20, 20);
   --bs-body-bg-rgb:
-    255,
-    255,
-    255;
+    20,
+    20,
+    20;
   --bs-emphasis-color: #000;
   --bs-emphasis-color-rgb:
     0,
@@ -2434,10 +2434,10 @@ textarea.form-control-lg {
   outline: 0;
 }
 .form-range:focus::-webkit-slider-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  box-shadow: 0 0 0 1px rgb(20, 20, 20), 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
 }
 .form-range:focus::-moz-range-thumb {
-  box-shadow: 0 0 0 1px #fff, 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+  box-shadow: 0 0 0 1px rgb(20, 20, 20), 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
 }
 .form-range::-moz-focus-outer {
   border: 0;
@@ -11310,16 +11310,9 @@ fieldset:disabled .btn {
     display: none !important;
   }
 }
-#cardImg {
-  border-radius: 50%;
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border: 4px solid white;
-  margin-top: -50px;
-}
 /*!
  * Bootstrap  v5.3.8 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+/*# sourceMappingURL=style.css.map */
