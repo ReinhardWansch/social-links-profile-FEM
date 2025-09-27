@@ -15,16 +15,24 @@ I will use Bootstrap and customize it with SCSS.
 - Solution URL: [Add solution URL here]()
 - Live Site URL: [Add live site URL here]()
 
-## My process
-
 ## Built with
+
+- Bootstrap
+- eslint
 
 ## What I learned
 
+- Changing Bootstrap default variables
+- Changing the the theme-color maps with SCSS
+- Using eslint with SASS-Plugin
+
 ## Useful resources
+
+- [Bootstrap Docs](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+- [esbuild Homepage](https://esbuild.github.io/)
 
 ## Author
 
-- Github - 
+- Github - [ReinhardWansch](https://github.com/ReinhardWansch)
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 
