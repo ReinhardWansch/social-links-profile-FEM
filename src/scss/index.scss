@@ -1,21 +1,25 @@
-// @import 'bootstrap/scss/bootstrap';
 
-// @use "../node_modules/bootstrap/scss/functions";
+$slp-body-bg: rgb(20, 20, 20);
+$slp-card-bg: rgb(31, 31, 31);
+$slp-btn-bg: rgb(51, 51, 51);
+$slp-btn-hover-bg: rgb(175, 255, 13);
 
-// $slp-bg-color: rgb(20,20,20);
-// $slp-card-bg-color: rgb(31,31,31);
-// $slp-btn-bg-color: rgb(51,51,51);
-// $slp-btn-bg-hover-color: rgb(175,255,13);
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
 
-// $body-bg: $slp-bg-color;
-// $body-bg: #000;
+$body-bg: #000;
+$body-color: white;
 
-
-$slp-body-bg: rgb(20,20,20);
-$slp-card-bg: rgb(31,31,31);
-$slp-btn-bg: rgb(51,51,51);
-$slp-btn-hover-bg: rgb(175,255,13);
-
-@use '../../node_modules/bootstrap/scss/bootstrap.scss' with (
-    $body-bg: $slp-body-bg,
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  "light":      $light,
+  "dark":       $dark,
+  "slp":        $slp-btn-bg,
 );
+
+@import "../../node_modules/bootstrap/scss/bootstrap";
