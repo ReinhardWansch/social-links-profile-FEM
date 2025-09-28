@@ -24,6 +24,9 @@ try {
         outdir: 'dist/css',
         minify: true,
         sourcemap: true,
+        loader: {
+            '.ttf': 'file'
+        },
         plugins: [
             sassPlugin(),
             buildLogger
