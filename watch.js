@@ -6,10 +6,11 @@ const buildLogger = {
     name: 'build-logger',
     setup(build) {
         build.onEnd((result) => {
+            const time= new Date().toLocaleTimeString();
             if (result.errors.length === 0) {
-                console.log('✅ Build completed successfully');
+                console.log(`✅ Build completed successfully at ${time}`);
             } else {
-                console.log('❌ Build completed with errors');
+                console.log(`❌ Build completed with errors at ${time}`);
             }
         });
     }
