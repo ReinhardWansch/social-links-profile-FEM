@@ -16,9 +16,20 @@ $slp-btn-hover-bg: rgb(175, 255, 13);
 $body-bg: #000;
 $body-color: white;
 
+
 // Required
 @import "../../node_modules/bootstrap/scss/variables";
 @import "../../node_modules/bootstrap/scss/variables-dark";
+
+$h1-font-size: $font-size-base * 2.5;
+$h2-font-size: $font-size-base * 2;
+$h3-font-size: $font-size-base * 1.75;
+$h4-font-size: $font-size-base * 1.5;
+$h5-font-size: $font-size-base * 1.25;
+$h6-font-size: $font-size-base;
+$h01-font-size: $font-size-base * 0.75;
+$h02-font-size: $font-size-base * 0.5;
+$h03-font-size: $font-size-base * 0.25;
 
 // Include any default map overrides here
 $theme-colors: (
@@ -34,6 +45,18 @@ $theme-colors: (
   "slp-card":   $slp-card-bg
 );
 
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size,
+  101: $h01-font-size,
+  102: $h02-font-size,
+  103: $h03-font-size,
+);
+
 @import "../../node_modules/bootstrap/scss/maps";
 @import "../../node_modules/bootstrap/scss/mixins";
 @import "../../node_modules/bootstrap/scss/root";
@@ -43,3 +66,25 @@ $theme-colors: (
 @import "../../node_modules/bootstrap/scss/buttons";
 @import "../../node_modules/bootstrap/scss/utilities/api"; 
 
+
+/*#############*/
+/*## STYLING ##*/
+/*#############*/
+
+#cardImg {
+    height: 5rem;
+    width: 5rem;
+}
+
+.btn-slp-btn:hover {
+    background-color: $slp-btn-hover-bg;
+    color: $slp-card-bg;
+}
+
+.card-subtitle {
+    color: $slp-btn-hover-bg;
+}
+
+.card-profession {
+    font-size: $font-size-base * 0.9;
+}
