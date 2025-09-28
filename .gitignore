@@ -18,5 +18,4 @@
 # Node modules folder
 node_modules/
 
-dist/
 playground/
