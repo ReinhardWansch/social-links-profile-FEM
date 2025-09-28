@@ -38,5 +38,5 @@ I will use Bootstrap and customize it with SCSS.
 ## Author
 
 - Github - [ReinhardWansch](https://github.com/ReinhardWansch)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@ReinhardWansch](https://www.frontendmentor.io/profile/ReinhardWansch)
 
