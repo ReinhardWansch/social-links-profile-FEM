@@ -25,11 +25,15 @@ I will use Bootstrap and customize it with SCSS.
 - Changing Bootstrap default variables
 - Changing the the theme-color maps with SCSS
 - Using eslint with SASS-Plugin
+- When overriding Bootstrap variables and maps, you need to pay attention to the import order.
 
 ## Useful resources
 
+- [mdn](https://developer.mozilla.org/de/)
 - [Bootstrap Docs](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
-- [esbuild Homepage](https://esbuild.github.io/)
+- [SASS](https://sass-lang.com/)
+- [esbuild](https://esbuild.github.io/)
+- [esbuild-sass-plugin](https://www.npmjs.com/package/esbuild-sass-plugin)
 
 ## Author
 
