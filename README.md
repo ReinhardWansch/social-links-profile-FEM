@@ -12,8 +12,8 @@ I will use Bootstrap and customize it with SCSS.
 
 ## Links
 
-- Solution URL: [Add solution URL here]()
-- Live Site URL: [Add live site URL here]()
+- Solution URL: [Social Links Profile Solution - FEM](https://www.frontendmentor.io/solutions/social-links-profile-QXBVwzQuLe)
+- Live Site URL: [Social Links Profile Solution - GitHub](https://reinhardwansch.github.io/social-links-profile-FEM/)
 
 ## Built with
 
